@@ -1,0 +1,26 @@
+rio:
+  name: 'Le Wagon Rio de janeiro'
+  address: 'Copacabana, 1000'
+  picture: 'https://kitt.lewagon.com/placeholder/cities/rio'
+
+london:
+  name: 'Le Wagon London'
+  address: 'Asdasd qweqwe, 333'
+  picture: 'https://kitt.lewagon.com/placeholder/cities/london'
+
+barcelona:
+  name: 'Le Wagon Barcelona'
+  address: 'QWEsdfsdf, 555'
+  picture: 'https://kitt.lewagon.com/placeholder/cities/barcelona'
+
+paris:
+  name: 'Le Wagon Paris'
+  address: 'dfgdfgdfg, 99'
+  picture: 'https://kitt.lewagon.com/placeholder/cities/paris'
+
+berlin:
+  name: 'Le Wagon Berlin'
+  address: 'asddfkjm, 678'
+  picture: 'https://kitt.lewagon.com/placeholder/cities/berlin'
+
+

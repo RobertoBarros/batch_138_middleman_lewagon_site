@@ -1,0 +1,33 @@
+
+
+
+<div class="container">
+  <h1>Cidades onde estamos</h1>
+
+  <div class="row">
+    <% data.cities.each do |city, info| %>
+      <div class="col-xs-12 col-sm-4">
+        <div class="card" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.2)), url('<%= info.picture%>');">
+          <div class="card-category">Popular</div>
+          <div class="card-description">
+            <h2><%= info.name %></h2>
+            <p><%= info.address %></p>
+          </div>
+          <img class="card-user" src="https://kitt.lewagon.com/placeholder/users/tgenaitay">
+          <a class="card-link" href="#" ></a>
+        </div>
+      </div>
+    <% end %>
+  </div>
+
+  <%= link_to 'Saiba Mais', '#', class: 'btn btn-primary' %>
+</div>
+
+
+
+
+
+
+
+
+

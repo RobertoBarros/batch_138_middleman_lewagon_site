@@ -4,10 +4,23 @@ title: Le Wagon - Middleman
 
 <div id="home">
   <div class="home-content">
-    <%= image_tag "logo.png", width: "200" %>
+    <%= image_tag("logo.png", width: "200") %>
     <p>
       Middleman is now running!
     </p>
+
+    <h1>Time now is <%= Date.today.strftime("%A, %b %d") %></h1>
+
+    <ul>
+      <% ['Middleman', 'ERB', 'SCSS'].each do |tech| %>
+        <li>
+          I'm playing with <%= tech %>!
+        </li>
+      <% end %>
+    </ul>
+
+
+
     <p class="about">
       <%= link_to "More about this template", "about.html" %>
     </p>
